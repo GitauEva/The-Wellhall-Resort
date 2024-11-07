@@ -1,0 +1,184 @@
+* {
+  font-family: Helvetica, sans-serif;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --main-colour: #032b22;
+  --darker-green: #00634d;
+  --lighter-green: #40ffb5;
+  --lighter-pink: #ffafda;
+  --off-white: #efede7;
+}
+/* Header Styling */
+header {
+  height: 100vh;
+  width: 100vw;
+}
+.main-image {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: relative;
+  left: 0;
+  right: 0;
+  filter: blur(2px);
+}
+.header-container {
+  position: relative;
+  top: -400px;
+}
+.wh-logo {
+  text-align: center;
+  width: 55px;
+  padding: 5px 2px;
+  border-radius: 50%;
+  border: 1px solid white;
+  display: block;
+  margin: 0 auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  position: relative;
+  bottom: 100px;
+}
+.wh-logo-a {
+  text-decoration: none;
+}
+.wh-logo:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px var(--off-white);
+  transform: scale(1.1);
+}
+.hotel-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.welcome-header {
+  font-family: "Courier New", Courier, monospace;
+  padding-bottom: 20px;
+  font-size: 30px;
+  color: var(--lighter-pink);
+  font-weight: bold;
+}
+.Wellhall {
+  font-size: 100px;
+  font-family: "Times New Roman", Times, serif;
+  color: var(--lighter-green);
+}
+.resort-header {
+  font-family: "Courier New", Courier, monospace;
+  padding-top: 20px;
+  font-size: 30px;
+  color: var(--lighter-pink);
+}
+/* Second Section */
+.second-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #032b22;
+}
+.second-section-right {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #efede7;
+}
+.second-section-right p {
+  display: block;
+  margin: 0 auto;
+  font-family: "Cormorant Garamond", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  padding: 10px 30px;
+  font-size: 22px;
+  text-align: center;
+}
+.second-section-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.images {
+  width: 965px;
+  height: 190px;
+  object-fit: cover;
+}
+.images:first-of-type {
+  padding-top: 10px;
+}
+/* Third Section */
+/* .third-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #032b22;
+}
+.third-section-left {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #efede7;
+}
+.third-section-left p {
+  display: block;
+  margin: 0 auto;
+  font-family: "Cormorant Garamond", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  padding: 10px 30px;
+  font-size: 22px;
+  text-align: center;
+  color: #efede7;
+} */
+.third-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #032b22;
+}
+.third-section-left {
+  width: 62%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #efede7;
+}
+.third-section-left h1 {
+  font-family: "Mea Culpa", Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+  font-size: 100px;
+  padding-top: 10px;
+  padding-right: 30px;
+}
+.third-section-left p {
+  display: block;
+  margin: 0 auto;
+  font-family: "Cormorant Garamond", Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
+  padding: 10px 30px;
+  font-size: 22px;
+  text-align: center;
+}
+.third-section-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.third-section-right img {
+  padding-right: 10px;
+}
+.oasis:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  color: #ffafda;
+  font-style: italic;
+}
