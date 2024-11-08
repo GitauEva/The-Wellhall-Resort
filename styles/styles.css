@@ -142,7 +142,6 @@ header {
 }
 .third-section h1 {
   text-align: center;
-  padding-top: 20px;
   font-family: "Felipa", "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande";
   font-size: 40px;
   color: #032b22;
@@ -176,6 +175,25 @@ header {
   margin-top: 0;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 23px;
+}
+.third-section a {
+  color: #032b22;
+}
+.more-accomodations {
+  display: block;
+  padding: 6px 60px;
+  border-radius: 30px;
+  border: none;
+  margin: 0 auto;
+  font-family: "Courier New", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: #032b22;
+  color: #efede7;
+}
+.more-accomodations:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #00634d;
 }
 /* Fourth Section */
 .fourth-section {
@@ -314,6 +332,10 @@ header {
   font-family: "Fraunces", Cambria, Cochin, Georgia, Times, "Times New Roman",
     serif;
 }
+.promos-gallery h3:hover {
+  color: #ffafda;
+  cursor: pointer;
+}
 .promos-gallery p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 14px;
@@ -324,6 +346,7 @@ header {
   color: #efede7;
   font-style: italic;
 }
+
 /* Seventh Section */
 .seventh-section {
   background-color: #efede7;
@@ -408,10 +431,17 @@ footer {
 .socials-icons {
   display: flex;
   gap: 15px;
+  padding-bottom: 15px;
 }
-.icon:active {
+.icon:hover {
   cursor: pointer;
   transform: scale(1.2);
+}
+.contact-us {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: white;
+  font-size: 20px;
 }
 .facebook,
 .twitter,

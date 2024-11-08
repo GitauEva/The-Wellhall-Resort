@@ -1,0 +1,48 @@
+.main-image {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  /* filter: blur(2.5px); */
+}
+.logo {
+  border: 1px solid black;
+  width: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 0 auto;
+}
+.main-header {
+  text-align: center;
+}
+.main-container {
+  background-color: #cfab46a2;
+  max-width: 680px;
+  margin: 0 auto;
+  border: 6px outset #3a2d097e;
+  padding: 20px 30px;
+}
+.membership-choice-div {
+  margin-right: 20px;
+}
+.membership-details {
+  display: flex;
+  gap: 5px;
+}
+.membership-details div {
+  width: 200px;
+}
+li {
+  list-style-type: square;
+}
+.preferences-details,
+.membership-details,
+.personal-details-div,
+.payment-info-div {
+  padding: 0 50px;
+}
+.terms-div a {
+  color: #032b22;
+  font-weight: bold;
+}
