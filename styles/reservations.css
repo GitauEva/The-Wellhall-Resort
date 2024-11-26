@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #032b22;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.main-img {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.header-div {
+  position: relative;
+  top: -400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.header-div h1 {
+  font-size: 150px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.header-div p {
+  font-family: "Courier New", Courier, monospace;
+  color: #ffafda;
+  font-size: 50px;
+}
+/* Second Section */
+.second-section {
+  width: 100vw;
+  height: 100vh;
+  background-color: #032b22;
+  color: #efede7;
+}
+.second-section-top {
+  display: flex;
+  height: 50vh;
+  border: 0;
+  padding: 0;
+  margin: 2px 0 0 0;
+}
+.left-top-second-section {
+  width: 50%;
+  height: 50vh;
+}
+.left-top-second-section img {
+  height: 290px;
+  width: 100%;
+  object-fit: cover;
+}
+.right-top-second-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.right-top-second-section-persons {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.right-top-second-section h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+}
+.right-top-second-section-details {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.right-bottom-second-section-prices {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.book-now {
+  background-color: #ffafda;
+  color: black;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 5px;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+}
+.book-now:hover {
+  background-color: white;
+  color: #00634d;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ffafda;
+}
+.hr-1 {
+  margin: 0 auto;
+  border-top: 1px dashed grey;
+  width: 80vw;
+}
+.second-section-bottom {
+  display: flex;
+  height: 50vh;
+  border: 0;
+  padding: 0;
+  margin: 5px 0 5px 0;
+}
+.left-bottom-second-section {
+  width: 50%;
+  height: 50vh;
+}
+.left-bottom-second-section img {
+  height: 290px;
+  width: 100%;
+  object-fit: cover;
+}
+.right-bottom-second-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+.right-bottom-second-section-persons {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+.right-bottom-second-section h3 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 40px;
+}
+.right-bottom-second-section-details {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+.right-bottom-second-section-prices {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+/* Third section */
